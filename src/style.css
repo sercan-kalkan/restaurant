@@ -1,0 +1,42 @@
+body {
+    margin-top: 0px;
+    background-color: fafafa;
+}
+
+nav {
+    background-color:#e3e3e3; 
+    height: 70px;
+    margin-bottom: 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flex-container div {
+    width: 150px;
+    height: 25px;
+    background-color:  #ee6f57;
+    border: solid, black
+    padding 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 30px;
+    padding: 3px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    margin: top 0;
+}
+
+#content img {
+    height: 500px;
+}
+

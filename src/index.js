@@ -2,9 +2,6 @@ alert("Hello I am an alert box")
 
 import "./style.css";
 
-import odinImage from "./assets/pasta.jpg";
-
-
 
 import { loadPage } from "./content.js";
 

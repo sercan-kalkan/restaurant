@@ -5,11 +5,12 @@ const CopyPlugin = require("copy-webpack-plugin");
 module.exports = {
   mode: "development",
   entry: "./src/index.js",
-  output: {
-    filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
-    clean: true,
-  },
+output: {
+  path: path.resolve(__dirname, 'dist'),
+  filename: 'bundle.[contenthash].js',
+  publicPath: '/restaurant/', // GitHub Pages repo adı
+  clean: true,
+},
   devServer: {
   static: {
     directory: path.join(__dirname, 'dist'),
